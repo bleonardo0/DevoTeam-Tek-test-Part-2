@@ -80,6 +80,13 @@ OPENAI_API_KEY=votre_cle_openai
 
 ## 🚀 Exécuter le projet
 
+pour la base vectoriel
+
+```bash
+python creer_vectorstores.py
+```
+
+
 ### Backend (API FastAPI)
 
 ```bash
