@@ -72,8 +72,14 @@ pip install -r requirements.txt
 ### Configurer l'environnement
 Créer un fichier `.env` avec votre clé OpenAI :
 
+
 ```env
 OPENAI_API_KEY=votre_cle_openai
+```
+
+Créer un fichier `.env.local` dans le dossier frontend-rag:
+```env
+NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
 ---
