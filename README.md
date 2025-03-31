@@ -1,6 +1,6 @@
-# 🚀 Projet RAG Multi-Agents
+# 🚀 Projet Multi-Agents
 
-Ce projet implémente une solution RAG (Retrieval-Augmented Generation) basée sur des agents spécialisés utilisant LangChain, OpenAI GPT-4, et FAISS, couplée à une interface web intuitive. L'objectif principal est de fournir des recommandations de formation personnalisées aux employés à partir d'évaluations initiales.
+Ce projet implémente une solution RAG (Retrieval-Augmented Generation) basée sur des agents spécialisés utilisant LangChain, OpenAI GPT-4, et FAISS, couplée à une interface web. L'objectif principal est de fournir des recommandations de formation personnalisées aux employés à partir d'évaluations initiales avec les 3 agents.
 
 ---
 
@@ -104,7 +104,7 @@ L'API sera disponible sur [http://localhost:8000](http://localhost:8000).
 ### Frontend (Next.js)
 
 ```bash
-cd frontend-rag
+cd multi-agent-front
 npm install
 npm run dev
 ```
