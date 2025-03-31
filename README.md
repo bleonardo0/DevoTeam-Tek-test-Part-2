@@ -11,7 +11,7 @@ Ce projet implémente une solution RAG (Retrieval-Augmented Generation) basée s
   - **Programmes de Formation**
   - **Meilleures Pratiques**
   - **Études de Cas**
-- Offrir une expérience utilisateur agréable grâce à une interface front-end intuitive et moderne.
+- Offrir une expérience utilisateur agréable grâce à une interface front-end.
 
 ---
 
@@ -32,9 +32,9 @@ rag-multi-agent-demo/
 │   ├── pratiques.json
 │   └── etudes.json
 │
-├── frontend-rag/
-│   ├── app/
-│   ├── components/
+├── multi-agent-front/
+│   ├── app/page.tsx
+│   ├── components/Chat.tsx
 │   ├── lib/
 │   └── package.json
 │
@@ -77,7 +77,7 @@ Créer un fichier `.env` avec votre clé OpenAI :
 OPENAI_API_KEY=votre_cle_openai
 ```
 
-Créer un fichier `.env.local` dans le dossier frontend-rag:
+Créer un fichier `.env.local` dans le dossier multi-agent-front:
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
