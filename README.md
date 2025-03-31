@@ -18,7 +18,7 @@ Ce projet implémente une solution RAG (Retrieval-Augmented Generation) basée s
 ## 📂 Structure du projet
 
 ```
-rag-multi-agent-demo/
+DevoTeam-Tek-test-Part-2/
 ├── agents/
 │   └── multi_agent.py
 │
